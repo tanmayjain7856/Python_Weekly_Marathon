@@ -11,7 +11,7 @@ if heightInCM >= 120:
     if age <= 18:
         bill = 7
         print('Youth tickets are $7.')
-    else:
+    if age > 18:
         bill = 12
         print('Adult tickets are $12.')
     wantsPhoto = input('Do you want photos of yourself? Y or N. ')
