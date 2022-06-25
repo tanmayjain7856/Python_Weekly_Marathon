@@ -20,3 +20,9 @@ print(colors)
 # To add multiples items to list
 colors.extend(['brown', 'olive', 'maroon', 'magenta', 'cream'])
 print(colors)
+
+# Nested List
+fruits = ['Strawberries', 'Apples', 'Grapes', 'Peaches', 'Pears']
+vegetables = ['Spinach', 'Tomatoes', 'Celery', 'Potatoes']
+nested_list = [fruits, vegetables]
+print(nested_list)
